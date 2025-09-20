@@ -113,7 +113,20 @@ def generate_message(verbose=False, with_flavor=False, show_lines=False, short=F
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate human-friendly git commit messages.")
+    parser = argparse.ArgumentParser(
+        description="Generate human-friendly git commit messages.",
+        usage="""autocomplete.py [options]
+
+Options:
+  --verbose      Show detailed file list
+  --show-lines   Show exact added/removed lines
+  --flavor       Add a fun ending to the commit message
+  --short        Show a 1-line summary of changes
+  --stage        Stage all changes before generating the message
+  --commit       Stage and commit with the generated message
+  -h, --help     Show this help message and exit
+"""
+    )
     parser.add_argument("--verbose", action="store_true", help="Show detailed file list.")
     parser.add_argument("--show-lines", action="store_true", help="Show exact added/removed lines.")
     parser.add_argument("--flavor", action="store_true", help="Add a fun ending to the commit message.")
