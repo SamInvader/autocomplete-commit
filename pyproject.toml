@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-commit"        # name on PyPI
-version = "0.1.0"
+version = "0.1.1"
 description = "A human-friendly git autocommit message generator"
 readme = "README.md"
 license = { text = "MIT" }
