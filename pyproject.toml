@@ -14,4 +14,4 @@ authors = [
 requires-python = ">=3.7"
 
 [project.scripts]
-autocomplete = "autocomplete.cli:main"
+aucommit = "autocomplete.__main__:main"
