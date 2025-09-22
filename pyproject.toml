@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "autocomplete-commit"        # name on PyPI
-version = "0.1.1"
+version = "0.1.2"
 description = "A human-friendly git autocommit message generator"
 readme = "README.md"
 license = { text = "MIT" }
@@ -14,4 +14,4 @@ authors = [
 requires-python = ">=3.7"
 
 [project.scripts]
-aucommit = "autocomplete.__main__:main"
+aucommit = "autocomplete_commit.__main__:main"
