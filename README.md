@@ -17,7 +17,7 @@ Perfect for developers who want to speed up their commit workflow.
 
 ## 🚀 Installation
 ```bash
-pip install autocommit
+pip install autocomplete-commit
 ```
 
 ---
@@ -26,11 +26,11 @@ pip install autocommit
 
 After installing, run:
 ```bash
-autocommit --help
+python -m autocommit --help
 ```
 Example
 ```bash
-autocommit --verbose --show-lines --flavor
+python -m autocommit --verbose --show-lines --flavor
 ```
 Output:
 ```
