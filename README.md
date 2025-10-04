@@ -65,8 +65,8 @@ Flag / Option	Description
 📌 Example Workflow
 ```
 git add .
-autocommit --verbose --show-lines
-git commit -m "$(autocommit --short)"
+python -m autocommit --verbose --show-lines
+git commit -m "$(python -m autocommit --short)"
 ```
 
 ---
